@@ -1,0 +1,22 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # runs every 6 hours
+  workflow_dispatch:        # allows manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Update GitHub Activity
+        uses: JamesIves/github-activity-readme@v0.3.0
+        with:
+          COMMIT_MSG: "chore: updated activity in README"
+
+      - name: Push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "✨ auto-update README"
