@@ -57,6 +57,7 @@
 ---
 ## 📰 Latest Activity
 <!--START_SECTION:activity-->
+1. 🚀 Published release [DocReader](https://github.com/Shubh07-Cs/DocReader/releases/tag/V0.1.0) in [Shubh07-Cs/DocReader](https://github.com/Shubh07-Cs/DocReader)
 <!--END_SECTION:activity-->
 ---
 ### 🏆 Achievements & Badges
